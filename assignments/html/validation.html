@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../css/table.css">
+</head>
+<body>
+    <div class="container">
+    <form name="custom_form" id="customform" action="cv.html">
+    <div class="form_box">
+        <h1>Registration form</h1>
+    <div class="input-row">
+        <input type="text" name="name" id="name" placeholder="name">
+        <span class="error" id="error"></span>
+    </div>
+    <div class="input-row">
+        
+        <input type="text" name="email" id="email" placeholder="Email">
+        <span class="error" id="error2"></span>
+    </div>
+    <div class="input-row">
+        
+        <input type="text" name="phone" id="phone" placeholder="Phone">
+        <span class="error" id="error3"></span>
+
+    </div>
+    <div class="input-row">
+        <select name="subject" id="subject">
+            <option value="">Please select</option>
+            <option value="design">Bussiness Analyst</option>
+            <option value="development">Full Stack Developer</option>
+            <option value="marketing">IOS developer</option>
+        </select>
+        <span class="error" id="error4"></span>
+    </div>
+    <div class="input-row">
+        
+        <input type="text" name="Message" placeholder="message" id="message">
+        <span class="error" id="error5"></span>
+
+    </div>
+    <input type="button" id="btn" value="submit">
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="js/validation.js"></script>
+    </form>
+</div>
+
+    
+</body>
+</html>
